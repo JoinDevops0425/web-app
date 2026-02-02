@@ -85,7 +85,7 @@ jobs:
         git config --global user.email "joindevops0425@gmail.com"
         git config --global user.name "JoinDevops0425" 
         git add helm/go-web-app-chart/values.yaml
-        git commit - "upgrade tag in heml chart"
+        git commit -m "upgrade tag in heml chart"
         git push
 
 
